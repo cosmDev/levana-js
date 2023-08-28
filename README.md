@@ -22,26 +22,34 @@ yarn add @cosmdev/levana-js
 ```javascript
 import { LevanaJs } from "@cosmdev/levana-js";
 
+const rpcAddress = '.......'
+const myAddress = 'osmo1......'
+const marketAddress = 'osmo1hd7r733w49wrqnxx3daz4gy7kvdhgwsjwn28wj7msjfk4tde89aqjqhu8x'
+
 const levana = new LevanaJs(
-  '***********', // Rpc address 
-  'osmo1hd7r733w49wrqnxx3daz4gy7kvdhgwsjwn28wj7msjfk4tde89aqjqhu8x' // Market ATOM/USD
+  rpcAddress, // Rpc address 
+  marketAddress // Market address
 );
 
-await levana.initLevana()
+async function init() {
+  await levana.initLevana()  
+  // console.log(await levana.getPrice())
+  // console.log(await levana.getPositionsByAddress(myAddress))
+  // console.log(await levana.getPositionById('4667'))
+  // console.log(await levana.getClosedPositionHistory(myAddress))
+  // console.log(await levana.getTradeHistorySummary(myAddress))
+  // console.log(await levana.getPositionActionHistory('4667'))
+  // console.log(await levana.getTraderActionHistory(myAddress))
+  // console.log(await levana.getLpActionHistory(myAddress))
+  // console.log(await levana.getLimitOrderHistory(myAddress))
+  // console.log(await levana.getLpInfo(myAddress))
+  // console.log(await levana.getDeltaNeutralityFee(1))
 
-const myAddress = 'osmo1*******************************'
- 
-console.log(await levana.getPrice())
-// console.log(await levana.getPositionsByAddress(myAddress))
-// console.log(await levana.getPositionById('4667'))
-// console.log(await levana.getClosedPositionHistory(myAddress))
-// console.log(await levana.getTradeHistorySummary(myAddress))
-// console.log(await levana.getPositionActionHistory('4667'))
-// console.log(await levana.getTraderActionHistory(myAddress))
-// console.log(await levana.getLpActionHistory(myAddress))
-// console.log(await levana.getLimitOrderHistory(myAddress))
-// console.log(await levana.getLpInfo(myAddress))
-// console.log(await levana.getDeltaNeutralityFee(1))
+  console.log(await levana.getPrice())
+
+}
+
+init()
 
 ```
 
