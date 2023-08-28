@@ -4,7 +4,7 @@
 
 ## Installation
 
-Use the package manager [npmjs](https://www.npmjs.com/) or [yarn](https://classic.yarnpkg.com/lang/en/docs/install/#debian-stable) to install levana-js.
+Use the package manager [npmjs](https://www.npmjs.com/) or [yarn](https://classic.yarnpkg.com/lang/en/docs/install/#debian-stable) to install `levana-js`.
 
 ```bash
 ### Install with npm
