@@ -1,5 +1,7 @@
 # levana-js
 
+![dragon-5-579a329e](https://github.com/cosmDev/levana-js/assets/1071490/0f42f7c8-d89d-4f55-bcd8-cf2d24895145)
+
 `levana-js` is a npm library for dealing with levana.
 
 ## Installation
