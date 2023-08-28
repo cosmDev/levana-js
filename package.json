@@ -7,7 +7,7 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
-  "repository": "git://github.com/cosmDev/levana-js.git" 
+  "repository": "git://github.com/cosmDev/levana-js.git",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
