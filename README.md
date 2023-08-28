@@ -7,7 +7,10 @@
 Use the package manager [npmjs](https://www.npmjs.com/) to install levana-js.
 
 ```bash
-npm install levana-js
+// npm
+npm install levana-js 
+// yarn  
+yarn add levana-js
 ```
 
 ## Usage
