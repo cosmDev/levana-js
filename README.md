@@ -1,6 +1,6 @@
 # levana-js
 
-levana-js is a npm library for dealing with levana.
+`levana-js` is a npm library for dealing with levana.
 
 ## Installation
 
