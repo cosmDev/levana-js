@@ -8,11 +8,11 @@ Use the package manager [npmjs](https://www.npmjs.com/) or [yarn](https://classi
 
 ```bash
 ### Install with npm
-npm install levana-js 
+npm install @cosmdev/levana-js
 ```
 ```bash
 ### Install with yarn  
-yarn add levana-js
+yarn add @cosmdev/levana-js
 ```
 
 ## Usage
